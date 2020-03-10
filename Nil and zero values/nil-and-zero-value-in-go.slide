@@ -1,0 +1,38 @@
+Nil and zero value in Go
+
+* Strings - nil
+.play string-nil.go
+
+* Strings: solution?
+- Use a pointer string
+.play string-pointer.go
+
+* Strings - zero value
+.play string-zero.go
+
+* Int and Float - nil
+.play int-and-float-nil.go
+
+* Int and Float: solution?
+- Same as strings
+.play int-and-float-pointer.go
+
+* Int and Float - zero value
+.play int-float-zero.go
+
+* Bool - nil
+.play bool-nil.go
+
+* Bool - solution?
+- You start getting the gist of it, right?
+.play bool-pointer.go
+
+* Bool - zero value
+.play bool-zero.go
+
+* Struct - nil
+.play struct-nil.go
+
+* Struct: solution(s)?
+- You can probably guess what's coming, right?
+.play struct-pointer.go

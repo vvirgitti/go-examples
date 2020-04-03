@@ -1,0 +1,27 @@
+Go Modules
+
+* What are Go modules?
+- Go modules are Go's dependency management system
+- Module = collection of Go packages stored in a go.mod
+- Since Go 1.11
+
+* How it works
+- Creates a go.mod file
+
+* Why do we use it?
+- Project outside of the GOPATH
+- Version a dependency and use the one the project needs
+- Manage dependencies directly from Go
+- Automatically import files from another package
+
+
+* How do we use it?
+
+* When starting a project
+- Create your project
+- Push to a github repo
+- Run `go mod`
+
+
+* More handy commands
+- Remove unused dependencies: go mod tidy

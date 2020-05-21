@@ -1,1 +1,1 @@
-Playground for some Go stuff
+Repo containing all my lightning talks on Golang

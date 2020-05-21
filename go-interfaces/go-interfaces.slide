@@ -1,0 +1,28 @@
+Go Interfaces
+
+* Let's start with an example
+.play car.go
+
+* What if we wanted to add another type?
+.play moto.go
+
+* Isn't something wrong?
+.code duplication.go
+
+* Enter the interface!
+.play interface.go
+
+* Wait, why does it look familiar?
+.image peqs.png
+
+* Anything works... as long as it satisfies the interface
+.play different-types.go
+
+* A happier interface
+.play satisfied.go
+
+
+* To sum up: why do we use interfaces?
+- Avoid duplication
+- Makes testing easier when using dependency injections
+- Flexibility

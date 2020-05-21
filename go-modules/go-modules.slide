@@ -6,7 +6,7 @@ Go Modules
 - Since Go 1.11
 
 * How it works
-- Creates a go.mod file
+- Creates a go.mod and a go.sum files
 
 * Why do we use it?
 - Project outside of the GOPATH
@@ -22,6 +22,15 @@ Go Modules
 - Push to a github repo
 - Run `go mod`
 
+* Update a dependency
+
+
+* Use a specific version of a dependency
+
 
 * More handy commands
 - Remove unused dependencies: go mod tidy
+
+
+* So what about vendoring?
+- Vendoring: all dependencies live in the vendor folder at the root of the project
